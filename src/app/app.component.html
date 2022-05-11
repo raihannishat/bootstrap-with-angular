@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="container">
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bootstrap</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section>
+      <div class="row g-3">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="../assets/img-1.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Mountain waterfall</h5>
+              <p class="card-text">A waterfall is a river or other body of water's steep fall over a rocky ledge into a
+                plunge pool below. Waterfalls are also called cascades.
+                The process of erosion, the wearing away of earth, plays an important part in the formation of
+                waterfalls.
+                Waterfalls themselves also contribute to erosion.
+                Powerful though waterfalls may appear, there is a longstanding assumption that they can only form when
+                permitted by other natural forces.
+              </p>
+              <button class="btn btn-primary">Read more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="../assets/img-2.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Road through the forest</h5>
+              <p class="card-text">Forest roads are a necessary element for accessing forestry resources, but their
+                impact on the environment can be significant. Forest roads can cause a variety of impacts on local
+                wildlife that may lead to extirpation: facilitating the spread of invasive organisms, causing death or
+                harm by vehicle strikes, and changing the behavior of animals to their detriment.
+              </p>
+              <button class="btn btn-primary">Read more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="../assets/img-3.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Road through crop fields</h5>
+              <p class="card-text">There is no shortage of data demonstrating that diversified cropping systems can
+                sustain high levels of productivity with fewer external inputs and lower externalities compared to more
+                simplified systems. Similarly, data exist indicating diverse cropping systems have greater capacity to
+                buffer against and adapt to weather extremes associated with climate change.
+              </p>
+              <button class="btn btn-primary">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <router-outlet></router-outlet>
+</body>
+
+</html>

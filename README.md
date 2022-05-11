@@ -1,10 +1,6 @@
-# Bootstrap With Angular
+# BootstrapWithAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
-
-## Note
-
-Bootstrap 5 now works directly with Angular. Earlier we had to work with ng-bootstarp, but now there is no need for that. Earlier bootstrap was jquery based but now they have migrated to full vanilla javascript, so it performs much better than material ui and it is good to say that bootstrap 5 is mobile fast, so no need to worry about responsiveness.
 
 ## Development server
 
